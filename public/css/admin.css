@@ -1,0 +1,28 @@
+#beranda {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#beranda .card {
+    transition: all 0.5s ease-in-out;
+}
+
+#beranda .card:hover {
+    transform: scale(1.1);
+    background-color: #0DCAF0;
+    color: white;
+}
+
+#detailMobil {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#editMobil {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
